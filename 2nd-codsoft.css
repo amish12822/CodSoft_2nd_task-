@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+.main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(206, 208, 198, 0.915);
+}
+
+.container {
+    width: 35rem;
+    box-shadow: 0px 0px 8px rgb(8, 8, 8);
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    overflow: hidden;
+    flex-direction: column;
+    transition: 0.3s ease;
+}
+
+.co , .col {
+    text-align: justify;
+    padding: 15px;
+    width: 95%;
+    color: black;
+}
+
+.container input {
+    cursor: pointer;
+}
+
+#submit {
+    width: 100%;
+    background-color: black;
+    transition: 0.4s ease;
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 25px;
+    font-weight: 700;
+    display: block;
+    padding: 10px;
+    cursor: pointer;
+    border: 3px solid white;
+    border-radius: 15px;
+}
+ 
+#submit:hover {
+    color: white;
+    background-color: red;
+}
+
+.box {
+    box-shadow: 0px -1px 1px grey;
+    width: 100%;
+}
+
+.container h3{
+    color: black;
+    letter-spacing: 0.04rem;
+    transition: 0.2s ease;
+}
+
+.container h3:hover {
+    display: inline-block;
+    transform: scale(1.02);    
+}
+
+.col {
+    color:black ;
+}
+
+.col:hover {
+    background-color: black;
+    color: white;
+}
+
+.container:hover{
+    transform: scale(1.005);
+    box-shadow: 0px 0px 38px rgb(8, 8, 8);
+    border: 3px solid black;
+}
+
+
